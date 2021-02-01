@@ -31,7 +31,7 @@ class App extends Component {
 		})
 	}
 	handleUpload = files => {
-		const sizeLimit = 10 * 1024 * 1024
+		const sizeLimit = 4 * 1024 * 1024
 		let uploadedSize = this.state.uploadedFiles.forEach(image => uploadedSize += image.data)
 
 		if (uploadedSize >= sizeLimit) {
