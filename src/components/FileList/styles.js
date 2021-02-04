@@ -16,6 +16,7 @@ export const Container = styled.ul`
 
 		& + div {
 			display: flex;
+			min-width: 58px;
 			align-items: center;
 			justify-content: flex-end;
 			align-content: baseline;
@@ -38,7 +39,6 @@ export const FileInfo = styled.div`
 		display: flex;
 		align-content: center;
 		flex-direction: column;
-		min-width: 58px;
 
 		span {
 			font-size: 12px;
