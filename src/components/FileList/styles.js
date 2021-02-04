@@ -38,6 +38,7 @@ export const FileInfo = styled.div`
 		display: flex;
 		align-content: center;
 		flex-direction: column;
+		min-width: 58px;
 
 		span {
 			font-size: 12px;
