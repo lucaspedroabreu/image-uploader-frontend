@@ -16,11 +16,12 @@ export const Container = styled.ul`
 
 		& + div {
 			display: flex;
-			min-width: 58px;
+			width: 62px;
 			align-items: center;
+			flex-direction: row;
+			flex-wrap: nowrap;
 			justify-content: flex-end;
-			align-content: baseline;
-
+			align-content: center;
 		}
 
 		a {
