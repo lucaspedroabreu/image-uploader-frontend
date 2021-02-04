@@ -19,7 +19,7 @@ const FileList = ({ files, handleDelete }) => (
 						</span>
 					</div>
 				</FileInfo>
-				<div>
+				<div class="status">
 					{!uploadedFile.uploaded && !uploadedFile.error && (
 						<CircularProgressbar
 							styles={{

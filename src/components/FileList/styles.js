@@ -16,7 +16,17 @@ export const Container = styled.ul`
 
 		& + div {
 			display: flex;
+			align-items: center;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: flex-end;
+			align-content: center;
+		}
+
+		.status {
+			min-width: 58px;
 			width: 62px;
+			display: flex;
 			align-items: center;
 			flex-direction: row;
 			flex-wrap: nowrap;
